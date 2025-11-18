@@ -1,0 +1,60 @@
+@use "font";
+
+/* Base styles */
+* {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h6,
+p {
+  margin: 0;
+}
+
+// style list
+
+h1 {
+  background-color: #ffbf0051;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin: auto;
+  width: fit-content;
+}
+
+h3 {
+  font-weight: 500;
+  color: #ffbf00;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 0;
+  margin: 0 0 1rem;
+
+  li {
+    padding: 0 1rem;
+    width: fit-content;
+
+    span {
+      p {
+        font-size: 11px;
+        margin-left: 1rem;
+        cursor: pointer;
+        width: fit-content;
+      }
+
+      p:hover {
+        background-color: #ffbf0051;
+      }
+    }
+  }
+}

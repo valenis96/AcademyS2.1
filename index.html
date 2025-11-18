@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/main.css">
+  <title>Exercicis bàsics JavaScript</title>
+</head>
+<body>
+  <h1>Exercicis bàsics JavaScript</h1>
+  <div class="container">
+    <h2>Exercici 1.1: Arrow functions</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+        <li>Exercici 1:
+          <span>
+            <p onclick="console.log(add(4,4))">4 + 4</p>
+            <p onclick="console.log(add(6,7))">6 + 7</p>
+          </span>
+        </li>
+      <li>Exercici 2:
+        <span>
+          <p onclick="console.log(randomNumber())">Numbero random</p>
+        </span>
+      </li>
+      <li>Exercici 3:
+        <span>
+          <p onclick="console.log(p.greet())">Digues-me hola</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 4:
+        <span>
+          <p onclick="printNumbers([1, 2, 3 , 4, 9, 23])">Premsa [1, 2, 3 , 4, 9, 23]</p>
+          <p onclick="printNumbers([13, 23, 33])">Premsa [13, 23, 33]</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 5:
+        <span>
+          <p onclick="delayedMessage('Han passat 3 segons!')">3 segons missatge</p>
+        </span>
+      </li>
+    </ul>
+
+    <h2>Exercici 1.2: Operador ternari</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+      <li>Exercici 1:
+        <span>
+          <p onclick="console.log(canDrive(16))">Pots conduir amb 16 anys?</p>
+          <p onclick="console.log(canDrive(26))">Pots conduir amb 26 anys?</p>
+        </span>
+      </li>
+      <li>Exercici 2:
+        <span>
+          <p onclick="console.log(compare(16, 5))">Número més alt entre 16 i 5</p>
+          <p onclick="console.log(compare(3, 90))">Número més alt entre 3 i 90</p>
+          <p onclick="console.log(compare(-23, 9))">Número més alt entre -23 i 9</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 3:
+       <span>
+          <h6>Tipus de numero</h6>
+          <p onclick="console.log(isPositive(-16))">Numero -16</p>
+          <p onclick="console.log(isPositive(0))">Numero 0</p>
+          <p onclick="console.log(isPositive(1234))">Numero 1234</p>
+          <h6>Trobar el nombre més gran</h6>
+          <p onclick="console.log(findMax(1, 0, 6))">Numeros 1, 0, 6</p>
+          <p onclick="console.log(findMax(10, 30, 100))">Numero 10, 30, 100</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 4:
+        <span>
+          <p onclick="evenOrOdd([10, 9, 8])">Els números 10, 9 i 8 son parell o imparell?</p>
+          <p onclick="evenOrOdd([1, 2, 3])">Els números 1, 2 i 3 son parell o imparell?</p>
+        </span>
+      </li>
+    </ul>
+
+    <h2>Exercici 1.3: Callbacks</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+      <li>Exercici 1:
+        <span>
+          <p onclick="process(printNum, 16)">Imprimir 16</p>
+          <p onclick="process(printNum, 26)">Imprimir 26</p>
+        </span>
+      </li>
+      <li>Exercici 2:
+        <span>
+          <p onclick="process(sum, 16, 2)">Suma 16 i 2</p>
+          <p onclick="process(sum, 26, 10)">Suma 26 i 10</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 3:
+        <span>
+          <p onclick="waitBeforeToProcess(saludar, 'Valentina')">Espera 2 segons i saluda a la Valentina</p>
+          <p onclick="waitBeforeToProcess(saludar, 'Giuseppe')">Espera 2 segons i saluda a la Giuseppe</p>
+        </span>
+      </li>
+      <li>Exercici 4:
+        <span>
+          <p onclick="processElements(printNum, [16, 2])">Imprimir 16 i 2</p>
+          <p onclick="processElements(printNum, [26, 10])">Imprimir 26 i 10</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 5:
+        <span>
+          <p onclick="processString(print, 'Valentina')">Escriu Valentina en majúscules</p>
+          <p onclick="processString(print, 'Giuseppe')">Escriu Giuseppe en majúscules</p>
+        </span>
+      </li>
+    </ul>
+
+    <h2>Exercici 1.4: Rest & Spread operators</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+      <li>Exercici 1:
+        <span>
+          <p onclick="console.log(buildArray3([1, 2, 3], [4, 5, 6]))">Crea array desde [1, 2, 3] i [4, 5, 6]</p>
+          <p onclick="console.log(buildArray3(['a', 'b', 'c'], ['d', 'f', 'g']))">Crea array desde ['a', 'b', 'c']i ['d', 'f', 'g']</p>
+        </span>
+      </li>
+      <li>Exercici 2:
+        <span>
+          <p onclick="console.log(addRest(10, 20, 30, 40))">Suma 10, 20, 30, 40</p>
+          <p onclick="console.log(addRest(1, 2, 3, 4))">Suma 1, 2, 3, 4</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 3:
+        <span>
+          <p onclick="secondObject()">Copiant objectes amb Spread</p>
+        </span>
+      </li>
+      <li>Exercici 4:
+        <span>
+          <p onclick="destructuring([10, 20, 30, 40, 50])">Rest en Destructuring: [10, 20, 30, 40, 50]</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 5:
+        <span>
+          <p onclick="showThree(...[10, 20, 30])">Spread en Funcions: [10, 20, 30]</p>
+        </span>
+      </li>
+      <li>Exercici 6:
+        <span>
+          <p onclick="console.log(combinedObjs)">Fusionant Objectes amb Spread</p>
+        </span>
+      </li>
+    </ul>
+
+    <h2>Exercici 1.5: Array transformations</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+      <li>Exercici 1:
+        <span>
+          <p onclick="console.log(squares([1, 2, 3, 4]))">Quadrat de [1, 2, 3, 4]</p>
+          <p onclick="console.log(squares([4, 5, 6]))">Quadrat de [4, 5, 6]</p>
+        </span>
+      </li>
+      <li>Exercici 2:
+        <span>
+          <p onclick="console.log(even([1, 2, 3, 4]))">Números parells de  [1, 2, 3, 4] </p>
+          <p onclick="console.log(even([4, 5, 6, 7]))">Números parells de [4, 5, 6, 7]</p>
+        </span>
+      </li>
+      <li>Exercici 3:
+        <span>
+          <p onclick="console.log(findMaxTen([1, 10 , 8, 11]))">Major a 10 en [1, 10, 8, 11] </p>
+          <p onclick="console.log(findMaxTen([4, 5, 66, 7]))">Major a 10 en [4, 5, 66, 7]</p>
+        </span>
+      </li>
+      <li>Exercici 4:
+        <span>
+          <p onclick="console.log(sumReduce([13, 7, 8, 21]))">Suma de 13, 7, 8, 21</p>
+          <p onclick="console.log(sumReduce([1, 2, 3, 4]))">Suma de 1, 2, 3, 4</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 5:
+        <span>
+          <p onclick="console.log(oneLineCode([ 1, 3, 7, 10 ,15, 17, 11, 5, 8, 12, 9 ]))">Funció en una sola línia</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 6:
+        <span>
+          <p onclick="console.log(every([11, 12, 13, 14]))">Every</p>
+          <p onclick="console.log(some([11, 12, 13, 14]))">Some</p>
+        </span>
+      </li>
+
+    <h2>Exercici 1.6: Array loops</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+      <li>Exercici 1:
+        <span>
+          <p onclick="printNames1(['Anna', 'Bernat', 'Clara'])">Imprimir noms amb forEach: Anna, Bernat i Clara</p>
+          <p onclick="printNames1(['Valentina', 'Giuseppe'])">Imprimir noms amb forEach: Valentina i Giuseppe</p>
+        </span>
+      </li>
+      <li>Exercici 2:
+        <span>
+          <p onclick="printNames2(['Anna', 'Bernat', 'Clara'])">Imprimir noms amb for of: Anna, Bernat i Clara</p>
+          <p onclick="printNames2(['Valentina', 'Giuseppe'])">Imprimir noms amb for of: Valentina i Giuseppe</p>
+        </span>
+      </li>
+      <li>Exercici 3:
+        <span>
+          <p onclick="console.log(oddFilter([1, 2, 3, 4, 5, 6]))">Números parells en [1, 2, 3, 4, 5, 6]</p>
+          <p onclick="console.log(oddFilter([7, 8, 9, 10, 11, 12]))">Números parells en [7, 8, 9, 10, 11, 12]</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 4:
+        <span>
+          <p onclick="printKeyAndValue()">Imprimir clau i el valor corresponent amb for in</p>
+        </span>
+      </li>
+      <li>Exercici 5:
+        <span>
+          <p onclick="findFive([1, 2, 3, 4, 5, 6])">Trobar el número 5 en [1, 2, 3, 4, 5, 6]</p>
+          <p onclick="findFive([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])">Trobar el número 5 en [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 6:
+        <span>
+          <p onclick="printArrayAndPosition(['Anna', 'Bernat', 'Clara'])">Imprimir cada element de l'array i la seva posició </p>
+          <p onclick="printArrayAndPosition(['Valentina', 'Giuseppe'])">Imprimir cada element de l'array i la seva posició </p>
+        </span>
+      </li>
+    </ul>
+
+     <h2>Exercici 1.7: Promises & Async/Await</h2>
+    <h3>Nivell 1</h3>
+    <ul>
+      <li>Exercici 1 i 2:
+        <span>
+          <p onclick="helloWorld()">'Hola, món' amb promises</p>
+        </span>
+      </li>
+      <li>Exercici 3:
+        <span>
+          <p onclick="checkInput('Ciao')">Promesa amb reject: incorrecte</p>
+          <p onclick="checkInput('Hola')">Promesa amb reject: correcte</p>
+        </span>
+      </li>
+      <li>Exercici 4:
+        <span>
+          <p onclick="showHelloWorld()">Ús de async/await</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 2</h3>
+    <ul>
+      <li>Exercici 5:
+        <span>
+          <p onclick="showHelloWorld2()">Gestió d'errors amb async/await</p>
+        </span>
+      </li>
+    </ul>
+    <h3>Nivell 3</h3>
+    <ul>
+      <li>Exercici 6:
+        <span>
+          <p onclick="promiseAll()">Promise.all</p>
+        </span>
+      </li>
+    </ul>
+  </div>
+  <script src="src/script/script1.js"></script>
+  <script src="src/script/script2.js"></script>
+  <script src="src/script/script3.js"></script>
+  <script src="src/script/script4.js"></script>
+  <script src="src/script/script5.js"></script>
+  <script src="src/script/script6.js"></script>
+  <script src="src/script/script7.js"></script>
+</body>
+</html>
