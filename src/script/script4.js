@@ -18,7 +18,7 @@ const secondObject = () =>{
   console.log(object2);
 }
 
-// Exercici 3
+// Exercici 4
 const destructuring = (numbers) =>{
   const[first, second, ...rest] = numbers;
   console.log(first); 
@@ -26,12 +26,12 @@ const destructuring = (numbers) =>{
   console.log(rest);  
 } 
 
-// Exercici 4
+// Exercici 5
 const showThree = (a, b, c) => {
   console.log(a, b, c);
 };
 
-// Exercici 5
+// Exercici 6
 const obj1 = {
   name: "Valentina",
   age: 28

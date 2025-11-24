@@ -18,6 +18,26 @@ The UI is a single HTML page where each exercise can be executed by clicking the
 
 - Become familiar with loops and array transformations.
 
+### Structure
+
+├── scr
+│ ├── css/
+│ │ ├── main.css
+│ │ └── main.css.map
+│ ├── script/
+│ | ├── script1.js
+│ | ├── script2.js
+│ | ├── script3.js
+│ | ├── script4.js
+│ | ├── script5.js
+│ | ├── script6.js
+│ | └── script7.js
+│ └── scss/
+│ . ├── \_font.scss
+│ . └── main.scss
+├── index.html # Main landing page
+└── README.md # Project documentation
+
 ## Technologies Used
 
 - HTML5
