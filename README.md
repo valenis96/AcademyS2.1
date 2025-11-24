@@ -6,6 +6,8 @@ This project contains a collection of basic JavaScript exercises structured into
 
 The UI is a single HTML page where each exercise can be executed by clicking the corresponding element.
 
+<img width="1918" height="826" alt="image" src="https://github.com/user-attachments/assets/cb89edb5-4401-4d49-85e6-bf84bc121a62" />
+
 ### Objectives
 
 - Understand and practice the use of arrow functions.
@@ -20,23 +22,25 @@ The UI is a single HTML page where each exercise can be executed by clicking the
 
 ### Structure
 
+```
 ├── scr
 │ ├── css/
-│ │ ├── main.css
-│ │ └── main.css.map
+│ │   ├── main.css
+│ │   └── main.css.map
 │ ├── script/
-│ | ├── script1.js
-│ | ├── script2.js
-│ | ├── script3.js
-│ | ├── script4.js
-│ | ├── script5.js
-│ | ├── script6.js
-│ | └── script7.js
+│ |   ├── script1.js
+│ |   ├── script2.js
+│ |   ├── script3.js
+│ |   ├── script4.js
+│ |   ├── script5.js
+│ |   ├── script6.js
+│ |   └── script7.js
 │ └── scss/
-│ . ├── \_font.scss
-│ . └── main.scss
+│      ├── _font.scss
+│      └── main.scss
 ├── index.html # Main landing page
 └── README.md # Project documentation
+```
 
 ## Technologies Used
 
